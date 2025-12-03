@@ -27,12 +27,9 @@ body {
    Container & Layout
    ============================================ */
 
-.grid.container {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 auto;
-    padding: 0 20px;
-    width: 100%;
 }
 
 /* ============================================
