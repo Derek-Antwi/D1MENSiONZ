@@ -31,8 +31,35 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     size: 300px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
+.centre-containter {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.grid-track {
+    padding: 20px;
+}
+.grid-track audio {
+    width: 100%;
+}
+.grid-track h2 {
+    text-align: center;
+}
+.grid-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.align-image-top {
+    object-position: top;
+}
 /* ============================================
    Header & Navigation
    ============================================ */
@@ -57,6 +84,12 @@ header .container {
 header h1 {
     font-size: 1.5rem;
     font-weight: 700;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
     margin: 0;
 }
 
@@ -149,8 +182,13 @@ footer p {
    ============================================ */
 
 h1, h2, h3, h4, h5, h6 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 2;
+    padding: 10px;
 }
 
 p {
@@ -185,3 +223,9 @@ img {
     display: block;
 }
 
+img size {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+}
